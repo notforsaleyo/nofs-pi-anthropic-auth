@@ -31,7 +31,7 @@ export const BILLING_HEADER_POSITIONS = [4, 7, 20] as const;
  * (https://github.com/anthropics/claude-code/issues/97074); Anthropic has not
  * said whether that is intended.  See Issue #83 before changing this value.
  */
-export const CLAUDE_CODE_ENTRYPOINT = "sdk-cli";
+export const CLAUDE_CODE_ENTRYPOINT = "cli";
 
 /** Prefix every billing header carries, used to detect an already-shaped block. */
 export const BILLING_HEADER_MARKER = "x-anthropic-billing-header:";
